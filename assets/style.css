@@ -1,0 +1,174 @@
+body {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background: white;
+}
+
+.img-scaled {
+    width: 100%;
+}
+
+.img-scaled-wh {
+  width: 100%;
+  height: 100%;
+}
+
+.img-scaled-h {
+    height: 100%;
+}
+
+#cover-background {
+    width: 100%;
+    height: 500px;
+}
+#cover {
+    position: relative;
+}
+#cover-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    top: 0px;
+    position: absolute;
+}
+#cover-nav {
+    position: absolute;
+    bottom: 0px;
+    background: #464646;
+    opacity: 0.4;
+    width: 100%;
+    height: 20px;
+    color: white;
+    padding: 20px 0px;
+}
+#cover-content {
+    position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: -40px;
+}
+#cover-title {
+    font-size: 36px;
+    font-weight: 300;
+}
+#cover-subtitle {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+#cover-nav-content {
+    width: 960px;
+    margin: 0px auto;
+    color: white;
+}
+#cover-nav-title {
+    float: left;
+    font-weight: 700;
+}
+.cover-nav-item {
+    float: right;
+    font-size: 13px;
+    margin-left: 30px;
+}
+.slide {
+    padding: 60px 0px;
+    border-top: 1px solid gray;
+}
+.container {
+    width: 720px;
+    margin: 0px auto;
+    text-align: center;
+    color: white;
+
+}
+#Life {
+    background: white;
+}
+#Experience {
+    background: white;
+}
+#Connect {
+  background: gray;
+}
+.slide-thumbnaillife {
+  display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid gray;
+}
+
+.overlay {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  position: absolute;
+  background-color: gray;
+  display: none;
+  color: white;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.slide-thumbnaillife:hover {
+    background-color: gray;
+    /*want a txt to appear too*/
+}
+
+.slide-thumbnailexp {
+  display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid gray;
+}
+
+.slide-thumbnailexp:hover {
+  background-color: white;
+}
+
+.slide-thumbnailconnect {
+  display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+}
+
+.slide-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 300;
+    color: gray;
+}
+.slide-description {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.slide-titleconnect {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+}
+.slide-descriptionconnect {
+    font-size: 13px;
+    line-height: 24px;
+    margin-top: 20px;
+    color: white;
+}
